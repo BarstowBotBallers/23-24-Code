@@ -6,13 +6,6 @@
 #define leftM 0
 #define rightM 3
 
-int measure(){
-    while (digital(0) ==0){
-        motor(leftM, 25);
-        motor(rightM, 25);
-    }
-}
-
 int main()
 {
     
